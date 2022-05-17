@@ -11,8 +11,6 @@ const ContactList = () => {
     contact.name.toLowerCase().includes(filter)
   );
 
-  console.log(contacts);
-
   return (
     <div>
       <ul>
